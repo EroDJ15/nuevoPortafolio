@@ -41,9 +41,15 @@ function Navbar() {
 
   return (
     <nav>
-      <div className="h-10vh justify-between z-50 text-white lg:py-5 px-20 py-4">
+      <div className="h-10vh justify-between z-50 text-white lg:py-2 px-20 py-2">
         <div className="text-3xl font-bold flex-1 -ml-6">
-          <span>Logo</span>
+          <div>
+            <img
+              src="/public/image/logo1.png"
+              className="left-1 lg:relative w-16 h-16 lg:w-25 lg:h-25 mt-2" // Aquí usas las clases de Tailwind para definir el ancho y el alto de la imagen según el breakpoint
+              alt=""
+            />
+          </div>
         </div>
         <div className="lg:flex md:flex lg:flex-1 items-center justify-end font-normal hidden">
           <div className="flex-10">
