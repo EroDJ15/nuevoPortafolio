@@ -1,5 +1,5 @@
 import React from "react";
-import { AiFillGithub } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/Ai";
 import { BiLogoLinkedin, BiLogoGmail } from "react-icons/Bi";
 import { BsWhatsapp } from "react-icons/Bs";
 
