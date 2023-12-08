@@ -3,12 +3,22 @@ import { AiFillGithub } from "react-icons/ai";
 import { BiLogoLinkedin } from "react-icons/Bi";
 import { BiLogoGmail } from "react-icons/Bi";
 import { BsWhatsapp } from "react-icons/Bs";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Banner = () => {
+  AOS.init({
+    easing: "ease-out-quart",
+    delay: 0,
+    duration: 750,
+  });
   return (
-    <div className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-8 lg-tex-center flex lg:flex-row flex-co-reverse justify-between lg:gap-28 items-center">
+    <div
+      data-aos="fade-up"
+      className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-8 lg-tex-center flex lg:flex-row flex-co-reverse justify-between lg:gap-28 items-center"
+    >
       <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items text-white">
-        <h1 className="text-[40px] font-serif mb-8 leading-normal text-left">
+        <h1 className="text-[40px] font-semibold mb-8 leading-normal text-left">
           Welcome to <span className="text-fuchsia-500">My Website</span>
         </h1>
         <p className="text-left font-serif text-lg">
@@ -17,7 +27,7 @@ const Banner = () => {
           incidunt aspernatur veniam magni? Dolores ex molestias minus odio rem,
           illo vero.
         </p>
-        <div className="flex mt-3 gap-2">
+        <div data-aos="fade-right" className="flex mt-3 gap-2">
           <div className="flex justify-center">
             <div className="flex space-x-2">
               <a

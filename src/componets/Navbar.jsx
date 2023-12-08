@@ -60,6 +60,11 @@ function Navbar() {
                 </Link>
               </li>
               <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 cursor-pointer">
+                <Link spy={true} smooth={true} to="about">
+                  About
+                </Link>
+              </li>
+              <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 cursor-pointer">
                 <Link spy={true} smooth={true} to="services">
                   Services
                 </Link>
@@ -69,11 +74,7 @@ function Navbar() {
                   Projects
                 </Link>
               </li>
-              <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 cursor-pointer">
-                <Link spy={true} smooth={true} to="about">
-                  About
-                </Link>
-              </li>
+
               <li className="hover:text-fuchsia-600 transition border-b-2 border-slate-900 cursor-pointer">
                 <Link spy={true} smooth={true} to="contact">
                   Contact
