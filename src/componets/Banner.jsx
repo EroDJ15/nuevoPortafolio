@@ -3,6 +3,7 @@ import { AiFillGithub } from "react-icons/ai";
 import { BiLogoLinkedin } from "react-icons/Bi";
 import { BiLogoGmail } from "react-icons/Bi";
 import { BsWhatsapp } from "react-icons/Bs";
+import { BiHome, BiSearch } from "react-icons/Bi";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
